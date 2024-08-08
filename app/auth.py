@@ -1,8 +1,8 @@
+import secrets
 from datetime import datetime, timedelta
 
 from jose import JWTError, jwt
 from passlib.context import CryptContext
-import secrets
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
